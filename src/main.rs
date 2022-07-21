@@ -6,7 +6,8 @@
 // mod montecaro;
 // mod sort;
 // mod dynamic_plan;
-mod geometory;
+// mod geometory;
+mod cumlative_sum;
 
 fn main() {
     println!("Hello, world!");
@@ -20,7 +21,8 @@ fn main() {
 
     // sort::run();
     // dynamic_plan::run();
-    geometory::run();
+    // geometory::run();
+    cumlative_sum::run();
 
 
     // structt::run();
