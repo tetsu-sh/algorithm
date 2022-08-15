@@ -7,7 +7,9 @@
 // mod sort;
 // mod dynamic_plan;
 // mod geometory;
-mod cumlative_sum;
+// mod newton;
+mod graph;
+
 
 fn main() {
     println!("Hello, world!");
@@ -22,7 +24,9 @@ fn main() {
     // sort::run();
     // dynamic_plan::run();
     // geometory::run();
-    cumlative_sum::run();
+    
+    // newton::run();
+    graph::run();
 
 
     // structt::run();
