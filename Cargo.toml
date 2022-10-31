@@ -3,9 +3,22 @@ name = "algorithm"
 version = "0.1.0"
 edition = "2021"
 
+[workspace]
+members = [
+    "solve"
+]
+
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
 rand= "0.8.5"
 proconio="0.3.6"
 num-traits="0.2"
+
+[[bin]]
+name="leetcode"
+path="src/leetcode.rs"
+
+[[bin]]
+name="atcoder"
+path="src/atcoder.rs"
